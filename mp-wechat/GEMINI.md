@@ -977,7 +977,7 @@ AI换脸技术的门槛，从"技术大神专属"降到了"小学生都能玩"�
 
 ```
 mp-wechat/
-├── CLAUDE.md                          # 本规则文档
+├── GEMINI.md                          # 本规则文档
 ├── _briefs/                           # 写作需求
 │   └── YYYY-MM-DD-主题-brief.md
 ├── _knowledge_base/                   # 调研资料
@@ -1049,5 +1049,5 @@ mp-wechat/
 
 ---
 
-**End of CLAUDE.md**
+**End of GEMINI.md**
 

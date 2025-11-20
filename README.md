@@ -4,13 +4,7 @@
 
 **让AI成为你的写作搭档，而不是替代品**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude: Sonnet 4.5](https://img.shields.io/badge/Claude-Sonnet%204.5-blue)](https://www.anthropic.com/claude)
-[![Platform: Multi](https://img.shields.io/badge/Platform-Multi-green)](#支持平台)
-[![Status: Active](https://img.shields.io/badge/Status-Active-success)]()
-[![Version: 1.2](https://img.shields.io/badge/Version-1.2-orange)]()
-
-[快速开始](#快速开始) · [核心理念](#核心理念) · [实战案例](#实战案例) · [更新日志](./mp-wechat/CHANGELOG.md)
+[快速开始](#快速开始) · [核心理念](#核心理念) · [实战案例](#实战案例) 
 
 </div>
 
@@ -69,11 +63,6 @@
 - **可读性**：从良好提升至**优秀** ⬆️
 - **读者留存率**：预计提升 **30-50%** ⬆️
 
-**查看详情**：
-- [完整更新日志](./mp-wechat/CHANGELOG.md)
-- [写作建议分析](./Chad-Nauseam-Writing-Advice-分析.md)
-
----
 
 ## 💡 这是什么？
 
@@ -337,12 +326,12 @@ mp-wechat/_personal_materials/
 在Claude中说：
 
 ```
-@CLAUDE.md 我想写一篇微信公众号文章，brief在 @2025-11-02-我的第一篇文章-brief.md
+@GEMINI.md 我想写一篇微信公众号文章，brief在 @2025-11-02-我的第一篇文章-brief.md
 ```
 
 然后，AI会自动：
 1. 识别平台（微信公众号）
-2. 加载规则（`mp-wechat/CLAUDE.md`）
+2. 加载规则（`mp-wechat/GEMINI.md`）
 3. 开始9步流程
 4. 持续Think Aloud
 5. 等待你的确认和反馈
@@ -414,10 +403,10 @@ mp-wechat/_personal_materials/
 ```
 /writing/
 ├── README.md                    # 【你在这里】项目说明
-├── CLAUDE.md                    # 总控规则文档
+├── GEMINI.md                    # 总控规则文档
 │
 ├── mp-wechat/                   # 微信公众号写作（✅已完成）
-│   ├── CLAUDE.md               # 微信公众号规则文档（612行）
+│   ├── GEMINI.md               # 微信公众号规则文档（612行）
 │   ├── README.md               # 项目说明
 │   │
 │   ├── _briefs/                # 需求文档
@@ -457,13 +446,13 @@ mp-wechat/_personal_materials/
 │       └── 审校checklist.md
 │
 ├── x-twitter/                   # Twitter写作（🔄待创建）
-│   └── CLAUDE.md               # Twitter规则文档
+│   └── GEMINI.md               # Twitter规则文档
 │
 ├── xiaohongshu/                 # 小红书写作（🔄待创建）
-│   └── CLAUDE.md               # 小红书规则文档
+│   └── GEMINI.md               # 小红书规则文档
 │
 └── zhihu/                       # 知乎写作（🔄待创建）
-    └── CLAUDE.md               # 知乎规则文档
+    └── GEMINI.md               # 知乎规则文档
 ```
 
 ---
@@ -540,7 +529,7 @@ mp-wechat/_personal_materials/
 - **风格**：深度+实践，真实案例
 - **更新频率**：周更
 - **适合**：技术分享、深度思考、教程类
-- **规则文档**：`mp-wechat/CLAUDE.md`（612行）
+- **规则文档**：`mp-wechat/GEMINI.md`（612行）
 
 ### 🔄 待扩展
 
@@ -551,7 +540,7 @@ mp-wechat/_personal_materials/
 - **风格**：简洁+观点，引发讨论
 - **更新频率**：日更
 - **适合**：观点表达、快速分享、热点讨论
-- **规则文档**：`x-twitter/CLAUDE.md`（待创建）
+- **规则文档**：`x-twitter/GEMINI.md`（待创建）
 
 #### 小红书
 - **流程**：5步图文流程（选图→文案→排版→标题→发布）
@@ -560,7 +549,7 @@ mp-wechat/_personal_materials/
 - **风格**：生活化+情绪化，视觉冲击
 - **更新频率**：日更
 - **适合**：生活分享、产品评测、种草推荐
-- **规则文档**：`xiaohongshu/CLAUDE.md`（待创建）
+- **规则文档**：`xiaohongshu/GEMINI.md`（待创建）
 
 #### 知乎
 - **流程**：7步论证流程（问题→调研→论证→案例→结论→审校→发布）
@@ -569,7 +558,7 @@ mp-wechat/_personal_materials/
 - **风格**：专业+逻辑，数据支撑
 - **更新频率**：周更
 - **适合**：深度回答、专业分析、经验总结
-- **规则文档**：`zhihu/CLAUDE.md`（待创建）
+- **规则文档**：`zhihu/GEMINI.md`（待创建）
 
 ---
 
@@ -624,7 +613,7 @@ mp-wechat/_personal_materials/公众号历史文章/
 
 在Claude中说：
 ```
-@CLAUDE.md 我想写一篇微信公众号文章，brief在 @2025-11-02-我的主题-brief.md
+@GEMINI.md 我想写一篇微信公众号文章，brief在 @2025-11-02-我的主题-brief.md
 ```
 
 **Step 4：跟随流程**
@@ -639,24 +628,24 @@ AI会引导你走完9步流程，你只需要：
 
 **快速创作**（跳过讨论）：
 ```
-@CLAUDE.md 根据这个brief直接写一篇文章，跳过选题讨论
+@GEMINI.md 根据这个brief直接写一篇文章，跳过选题讨论
 ```
 
 **只做审校**：
 ```
-@CLAUDE.md 帮我审校这篇文章，重点降AI味
+@GEMINI.md 帮我审校这篇文章，重点降AI味
 ```
 
 **修改已有文章**：
 ```
-@CLAUDE.md 修改@某篇文章.md，调整第3部分的内容...
+@GEMINI.md 修改@某篇文章.md，调整第3部分的内容...
 ```
 
 ### 进阶技巧
 
 #### 1. 自定义流程
 
-修改 `mp-wechat/CLAUDE.md` 中的流程定义，调整为你喜欢的工作方式。
+修改 `mp-wechat/GEMINI.md` 中的流程定义，调整为你喜欢的工作方式。
 
 #### 2. 建立个人素材库
 
@@ -764,56 +753,16 @@ AI会引导你走完9步流程，你只需要：
 - ✅ 生成的内容归你所有
 - ✅ 无需标注"AI生成"
 
-**版权说明**：
-- 本项目代码：MIT License（可自由使用、修改、商用）
-- 生成的文章：版权归你（作为使用者）
-- AI配图：取决于你使用的工具（如Midjourney需要订阅）
-
 **建议**：
 - 重要商业用途：人工最终把关
 - 事实性内容：务必核实数据来源
 - 法律文书：不建议使用AI生成
-
-### Q7: 为什么要开源？
-
-**理念**：
-- AI写作不应该是黑盒
-- 好的工作流应该可以复用
-- 内容创作者应该有更好的工具
-
-**目标**：
-- 帮助更多人提高写作效率
-- 促进AI写作的透明化和规范化
-- 共同探索人机协作的最佳实践
-
-**欢迎**：
-- 使用和改进这套系统
-- 分享你的使用经验
-- 贡献更好的idea
 
 ---
 
 ## 🤝 贡献指南
 
 欢迎各种形式的贡献！
-
-### 贡献方式
-
-#### 1. 提交Issue
-- 发现Bug？提交Issue
-- 有建议？提交Issue
-- 想要新功能？提交Issue
-
-#### 2. 提交PR
-- 修复Bug
-- 优化文档
-- 新增平台规则
-- 改进流程
-
-#### 3. 分享经验
-- 写使用教程
-- 分享实战案例
-- 录制视频教程
 
 ### 贡献指引
 
@@ -823,26 +772,9 @@ AI会引导你走完9步流程，你只需要：
 
 1. Fork本项目
 2. 创建平台目录（如 `/douyin/`）
-3. 编写规则文档（`/douyin/CLAUDE.md`）
-4. 在根目录 `CLAUDE.md` 中添加索引
+3. 编写规则文档（`/douyin/GEMINI.md`）
+4. 在根目录 `GEMINI.md` 中添加索引
 5. 提交PR
-
-**优化流程**：
-
-如果你优化了某个平台的工作流程：
-
-1. 修改对应的 `CLAUDE.md`
-2. 说明改进理由
-3. 提供对比数据（如效率提升、效果对比）
-4. 提交PR
-
-**修复Bug**：
-
-如果发现规则文档有误：
-
-1. 在Issue中描述问题
-2. 提供复现步骤
-3. 提交修复PR
 
 ### 代码规范
 
@@ -859,46 +791,7 @@ AI会引导你走完9步流程，你只需要：
 
 ---
 
-## 📜 许可证
-
-MIT License
-
-这意味着你可以：
-- ✅ 自由使用（个人、商业均可）
-- ✅ 自由修改
-- ✅ 自由分发
-- ✅ 自由商用
-
-唯一要求：保留原作者的版权声明
-
----
-
-## 🙏 致谢
-
-**灵感来源**：
-- [Anthropic Claude](https://www.anthropic.com/claude) - 强大的AI能力
-- 所有内容创作者 - 你们的需求推动了这个项目
-
-**特别感谢**：
-- 第一批用户的反馈和建议
-- 开源社区的支持
-
----
-
-## 📞 联系方式
-
-- **小红书**: MapleShaw
-- **Twitter/X**: @msjiaozhu
-
----
-
 ## 🗺️ Roadmap
-
-### v1.0（2025-10-26）✅
-- [x] 微信公众号完整系统
-- [x] 核心理念和规则
-- [x] 多平台架构设计
-- [x] 实战验证（已发布1篇文章）
 
 ### v1.1（2025-11-08）✅ - 重大优化
 - [x] 新增：创意排水环节（Step 6.5）
@@ -935,22 +828,3 @@ MIT License
 - [ ] 多语言支持
 
 ---
-
-## ⭐ Star History
-
-如果这个项目对你有帮助，请给一个Star⭐！
-
-这将鼓励我们持续改进和维护。
-
----
-
-<div align="center">
-
-**用AI赋能创作，而不是替代创作**
-
-Made with ❤️ by AI Writing Agent Team
-
-[快速开始](#快速开始) · [查看文档](./CLAUDE.md) · [提交反馈](https://github.com/yourusername/ai-writing-agent/issues)
-
-</div>
-
