@@ -66,7 +66,7 @@
 
 ## 💡 这是什么？
 
-一个基于 **Claude Sonnet 4.5** 构建的多平台写作Agent系统，专为内容创作者打造。
+一个基于 **Gemini 3 Pro** 构建的多平台写作Agent系统，专为内容创作者打造。
 
 **不是**简单的"AI生成文章"，而是：
 - ✅ 一套**完整的创作工作流**（从需求到发布）
@@ -285,7 +285,7 @@ Step 9: 发布交付
 ### 前置要求
 
 - **Claude Code / Cursor**（推荐）
-- **Claude Sonnet 4.5**（API或订阅）
+- **Gemini 3 Pro**（API或订阅）
 - 基本的Markdown知识
 
 ### 安装步骤
@@ -297,9 +297,9 @@ git clone https://github.com/yourusername/ai-writing-agent.git
 cd ai-writing-agent
 ```
 
-#### 2. 配置Claude
+#### 2. Antigravity
 
-在Claude Code（Cursor）中打开项目，确保能访问Claude Sonnet 4.5。
+在Antigravity中打开项目，确保能访问Gemini 3 Pro。
 
 #### 3. 准备个人素材（可选但推荐）
 
@@ -323,7 +323,7 @@ mp-wechat/_personal_materials/
 我想写一篇关于XXX的文章，目标读者是YYY，核心观点是ZZZ...
 ```
 
-在Claude中说：
+在Antigravity中说：
 
 ```
 @GEMINI.md 我想写一篇微信公众号文章，brief在 @2025-11-02-我的第一篇文章-brief.md
@@ -564,14 +564,14 @@ mp-wechat/_personal_materials/
 
 ## 🛠️ 技术栈
 
-- **AI模型**：Claude Sonnet 4.5
-- **开发工具**：Claude Code / Cursor
+- **AI模型**：Gemini 3 Pro
+- **开发工具**：Antigravity
 - **文件格式**：Markdown
 - **搜索工具**：Claude内置搜索（无需外部API）
 - **图片生成**：提供Prompt（支持Midjourney、DALL-E、SD等）
 - **版本控制**：Git
 
-**为什么选择Claude Sonnet 4.5？**
+**为什么选择Gemini 3 Pro？**
 - ✅ 100万token上下文（处理长文档）
 - ✅ 强大的指令遵循能力（按规则执行）
 - ✅ 优秀的自然语言理解（学习风格）
@@ -681,9 +681,9 @@ AI会引导你走完9步流程，你只需要：
 - 有积累（素材库、知识库）
 - 有个性（保留你的风格）
 
-### Q2: 必须用Claude Sonnet 4.5吗？能用GPT-4吗？
+### Q2: 必须用Gemini 3 Pro吗？能用GPT-4吗？
 
-**推荐Claude Sonnet 4.5的原因**：
+**推荐Gemini 3 Pro的原因**：
 - 100万token上下文（处理长文档）
 - 更强的指令遵循能力
 - 更可靠（更少"幻觉"）
